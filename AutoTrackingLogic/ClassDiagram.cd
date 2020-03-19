@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AutoTrackingLogic.Data.CoordinateBase">
+    <Position X="1.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQQCAAQABCAEQAAAAAACIAAAAAACAAABAAKAAAA=</HashCode>
+      <FileName>Data\CoordinateBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AutoTrackingLogic.Data.Latitude">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Data\Latitude.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoTrackingLogic.Data.Longitude">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Longitude.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoTrackingLogic.Db.BltDbBroker" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAgAAAAAAAAAAAAAAAAAAAIAABAAAAAAAA=</HashCode>
+      <FileName>Db\BltDbBroker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AutoTrackingLogic.DbBroker" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>DbBroker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoTrackingLogic.Implementations.EmulatorTrackerDataParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Implementations\EmulatorTrackerDataParser.cs</FileName>
+      <NewMemberFileName>Implementations\TestTrackerDataParser.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AutoTrackingLogic.TrackerDataParserException" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TrackerDataParserException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoTrackingLogic.UdpTransportTracker" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAJAAACAAAAAoCIAAAAAAIQAIAACYYAEAAAAAAQA=</HashCode>
+      <FileName>UdpTransportTracker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AutoTrackingLogic.Implementations.NMEA0183DataParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCgAAAAAAECAAIEAAAAAAAAAAEAAAAABCAAAAAAAAA=</HashCode>
+      <FileName>Implementations\NMEA0183DataParser.cs</FileName>
+      <NewMemberFileName>Implementations\MeiligaoDataParser.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AutoTrackingLogic.Properties.Settings" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAEAAAAAAAAAAAAAAIAAAAAABACAAAAIAAAAoAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoTrackingLogic.Db.ClassicAdoDbBroker2" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAIAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Db\ClassicAdoDbBroker2.cs</FileName>
+      <NewMemberFileName>Db\ClassicAdoDbBroker.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AutoTrackingLogic.Db.ConnectionPoolPerformanceCounter" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEAAAAAAAADAAABACAAAAIAAAQAAAEQAAAAAIABAA=</HashCode>
+      <FileName>Db\ConnectionPoolPerformanceCounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoTrackingLogic.Implementations.Crc16Ccitt" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAABAAAAAAAAAgAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Implementations\MeiligaoDataParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoTrackingLogic.Implementations.CRCCalculator" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Implementations\MeiligaoDataParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="AutoTrackingLogic.Db.IDbBroker" Collapsed="true">
+    <Position X="5.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Db\IDbBroker.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AutoTrackingLogic.ITrackerDataParser" Collapsed="true">
+    <Position X="7" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ITrackerDataParser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AutoTrackingLogic.ITransportTracker" Collapsed="true">
+    <Position X="8.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAQIAAAAAAAAAA=</HashCode>
+      <FileName>ITransportTracker.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="AutoTrackingLogic.Implementations.InitialCrcValue" Collapsed="true">
+    <Position X="5.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAgAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Implementations\MeiligaoDataParser.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

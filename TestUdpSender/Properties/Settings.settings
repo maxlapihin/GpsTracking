@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TestUdpSender.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="X2" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">37.628174</Value>
+    </Setting>
+    <Setting Name="Y2" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">55.754941</Value>
+    </Setting>
+    <Setting Name="X1" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">60.595436</Value>
+    </Setting>
+    <Setting Name="Y1" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">56.843715</Value>
+    </Setting>
+    <Setting Name="T" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">30000</Value>
+    </Setting>
+    <Setting Name="DeviceID" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
